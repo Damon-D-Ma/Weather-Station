@@ -21,6 +21,8 @@ const char* password   = "[YOUR NETWORK PASSWORD HERE]";
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = -14400;
 const int   daylightOffset_sec = 0;
+//above two values may need to change depending on your time zone
+
 
 DynamicJsonDocument doc(24000);
 DeserializationError error;
