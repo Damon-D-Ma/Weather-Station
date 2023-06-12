@@ -32,9 +32,10 @@ float wind = 0;
 float precip = 0;
 
 //use the api for open-meteo.com here:
-#define WEATHER_API "https://api.open-meteo.com/v1/forecast?latitude=[YOUR LATITUDE HERE]&longitude=[YOUR LONGITUDE HERE]&hourly=precipitation_probability&current_weather=true&forecast_days=1&timezone=America%2FNew_York"
-//replace the "[YOUR LATITUDE HERE]" and "[YOUR LONGITUDE HERE]" with the actual values corresponding to your area
+#define WEATHER_API "https://api.open-meteo.com/v1/forecast?latitude=[YOUR LATITUDE HERE]&longitude=[YOUR LONGITUDE HERE]&hourly=precipitation_probability&current_weather=true&forecast_days=1&timezone=[YOUR TIME ZONE HERE]"
+//replace the "[YOUR TIME ZONE HERE]", "[YOUR LATITUDE HERE]" and "[YOUR LONGITUDE HERE]" with the actual values corresponding to your area
 //this information can be found online
+//API from https://open-meteo.com/en/docs
 
 #define SCREEN_WIDTH 128 // display width
 #define SCREEN_HEIGHT 64 // display height
